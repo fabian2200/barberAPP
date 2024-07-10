@@ -1,0 +1,27 @@
+ img {
+      width: 200pt; 
+      height: 200pt;
+    }
+    #config {
+      position: absolute; 
+      right: 10px; 
+      top: 10px; 
+      border: none;
+    }
+
+    .card{
+      padding: 10px;
+    }
+
+    #name {
+      font-weight: bold;
+    }
+
+    #item{
+      -webkit-transition:all .6s ease;
+    }
+
+    #item:hover {
+      transform:scale(1.03);
+      cursor: pointer;
+    }
